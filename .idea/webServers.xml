@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="13dbfa57-36c3-4ff1-b71f-56a93f2cc7a5" name="lawyer">
+        <fileTransfer rootFolder="/home/dati/ground" accessType="SFTP" host="47.104.6.165" port="22" sshConfigId="9619bde7-5f7b-4dbe-a1db-03a066316d4b" sshConfig="root@47.104.6.165:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a3a5e2ce-536c-498b-9530-15d8019a7442" name="lawyeroot">
+        <fileTransfer rootFolder="/usr/local/lib64/python3.6/site-packages/" accessType="SFTP" host="47.104.6.165" port="22" sshConfigId="9619bde7-5f7b-4dbe-a1db-03a066316d4b" sshConfig="root@47.104.6.165:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
